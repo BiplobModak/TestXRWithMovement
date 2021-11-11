@@ -55,8 +55,7 @@
 			var hitTestSource = null;
 			var hitTestSourceRequested = false;
 
-			init();
-			animate();
+			
 
 			$(".ar-object").click(function(){
 				if(current_object != null){
@@ -310,6 +309,8 @@
 				renderer.render( scene, camera );
 
 			}
+			init();
+			animate();
 
 		</script>
 	</body>
